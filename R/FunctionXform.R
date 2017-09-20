@@ -109,6 +109,8 @@ FunctionXform <- function (boxdata,origFieldName,newFieldName="newField",
   
   levels(boxdata$fieldData$type)[2] <- "derived" #must create factor level first
   boxdata$fieldData[newFieldName,"type"] <- "derived"
+  #correction from the original pacakge
+  levels(boxdata$fieldData$type)[1] <- "original"
   boxdata$fieldData[newFieldName,"dataType"] <- newFieldDataType #this could be string
   
   
