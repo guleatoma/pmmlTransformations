@@ -5,7 +5,7 @@ This version is still under development. Use at your own risk
 To install the package use devtools: 
 
 ```{r}
-devtools::install_github("guleatoma/pmmlTransformations")
+devtools::install_github("turo/pmmlTransformations")
 ```
 
 The package currently brings fixes targeted to some specific use cases listed below.
@@ -34,5 +34,5 @@ would throw an error. This version fixes the issue
 
 
 ## pmml package
-You can also find fixes for the pmml package [here](https://github.com/guleatoma/pmml).
+You can also find fixes for the pmml package [here](https://github.com/turo/pmml).
 
